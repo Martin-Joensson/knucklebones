@@ -1,41 +1,32 @@
 import "./Board.css";
 
 export const Board = () => {
+  const columnArray = [null, null, null];
+
   return (
     <div className="board">
-      ColumnButton
       <div className="player1 side">
-        <div className="colum1">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
+        <div className="placeholder"></div>
+        <div className="player1 side">
+          <div className="column 1"></div>
+          <div className="column 2"></div>
+          <div className="column 3"></div>
         </div>
-        <div className="colum2">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
-        </div>
-        <div className="colum3">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
+        <div className="info-holder">
+                  <div className="dice-tray>">Dice-tray</div>
+                  <h2>Mr. Knuckles</h2>
         </div>
       </div>
       <div className="player2 side">
-        <div className="colum1">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
+        <div className="info-holder">
+          <h2>Player</h2>
+          <div className="dice-tray"></div>Dice-tray
         </div>
-        <div className="colum2">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
-        </div>
-        <div className="colum3">
-          <div className="die-slot row1"></div>
-          <div className="die-slot row2"></div>
-          <div className="die-slot row3"></div>
+        <div className="player2 side">
+          <div className="column 1"></div>
+          <div className="column 2"></div>
+          <div className="column 3"></div>
+          <div className="placeholder"></div>
         </div>
       </div>
     </div>

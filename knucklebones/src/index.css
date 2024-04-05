@@ -2,9 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Caudex";
 
   --main-color: #663399;
-  --accent-color: #996633;
+  --accent-color: rgb(176, 49, 49);
   --background-color: #ddccdd;
   --text-color: #333333;
+  --title-color: beige;
+  --dice-player1: beige;
+  --dice-player1-border: rgb(33, 32, 33);
+  --dice-player2: rgb(33, 32, 33);
+  --dice-player1-border: beige;
+  --dice-double: rgb(176, 134, 49);
+  --dice-triple: rgb(49, 108, 176);
+  --dice-border: black;
 }
+

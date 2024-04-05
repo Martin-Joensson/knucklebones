@@ -1,4 +1,25 @@
-.player1 {
-    color: maroon;
+.player1, .player2 {
+    display: flex;
+    font-size: 2rem;
 }
-)
+
+.dice .player1{
+    color:var(--dice-player1);
+    background-color: var(--dice-player1-border);
+    border-radius: 10px;
+}
+
+.dice .player2{
+    color:var(--dice-player2);
+    background-color: var(--dice-player2-border);
+    border-radius: 10px;
+}
+
+.dice-double {
+    color: var(--dice-double-color);
+}
+
+.dice-triple {
+    color: var(--dice-triple-color);
+}
+}

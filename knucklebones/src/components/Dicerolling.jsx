@@ -17,17 +17,17 @@ export const Dicerolling = (min, max) => {
   const iconSet = (value) => {
     switch (value) {
       case 1:
-        return <FaDiceOne />;
+        return <FaDiceOne className="dice"/>;
       case 2:
-        return <FaDiceTwo />;
+        return <FaDiceTwo className="dice" />;
       case 3:
-        return <FaDiceThree />;
+        return <FaDiceThree className="dice" />;
       case 4:
-        return <FaDiceFour />;
+        return <FaDiceFour className="dice" />;
       case 5:
-        return <FaDiceFive />;
+        return <FaDiceFive className="dice" />;
       case 6:
-        return <FaDiceSix />;
+        return <FaDiceSix className="dice" />;
     }
   };
 
