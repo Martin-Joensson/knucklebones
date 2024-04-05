@@ -13,14 +13,14 @@ export const Board = () => {
           <div className="column 3"></div>
         </div>
         <div className="info-holder">
-                  <div className="dice-tray>">Dice-tray</div>
-                  <h2>Mr. Knuckles</h2>
+          <div className="dice-tray">Dice-tray</div>
+          <h2>Mr. Knuckles</h2>
         </div>
       </div>
       <div className="player2 side">
         <div className="info-holder">
           <h2>Player</h2>
-          <div className="dice-tray"></div>Dice-tray
+          <div className="dice-tray">Dice-tray</div>
         </div>
         <div className="player2 side">
           <div className="column 1"></div>

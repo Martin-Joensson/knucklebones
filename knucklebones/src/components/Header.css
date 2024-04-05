@@ -7,19 +7,23 @@ header {
   justify-content: space-between;
 }
 
+.title{
+display: flex;
+align-items: center;
+}
+
 .title h1 {
   font-family: "Fruktur", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--title-color);
-  margin: 1rem 0 0 1rem;
+  margin: 1rem ;
 }
 
 .title p {
-    font-size: 1.4rem;
-    margin: 0 1rem 1rem;
-
+    font-size: 1rem;
+    margin: 1rem 0;
 }
 
 .rule-button {
@@ -28,7 +32,7 @@ header {
   background: transparent;
   border: none;
   outline: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.2);
   font-size: 2rem;
 }
 
@@ -57,6 +61,7 @@ header .rules-container {
   gap: 1.5rem;
   background-color: rgba(0, 0, 0, 0.9);
   transform: translateY(-100vh);
+  color: var(--title-color);
 }
 
 header .show-rules {
